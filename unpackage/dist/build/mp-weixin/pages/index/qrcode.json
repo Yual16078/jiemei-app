@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "社区成员登记",
+  "usingComponents": {
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}

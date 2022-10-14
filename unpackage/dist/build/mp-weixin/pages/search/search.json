@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "成员筛选",
+  "usingComponents": {
+    "uni-calendar": "/components/uni-calendar/uni-calendar",
+    "mx-datepicker": "/components/mx-datepicker/mx-datepicker"
+  }
+}

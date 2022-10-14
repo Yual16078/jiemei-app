@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/ucenter/ucenter",
+    "pages/add/add",
+    "pages/index/qrcode",
+    "pages/member_detail/member_detail",
+    "pages/index/shequ_list/shequ_list",
+    "pages/member_detail/info",
+    "pages/member_detail/list",
+    "pages/ucenter/about_us",
+    "pages/receipt/receipt",
+    "pages/loading/loading"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "出入管理",
+    "navigationBarBackgroundColor": "#66ccff"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#66ccff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "static/tabBar/indexS.png",
+        "iconPath": "static/tabBar/index.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "selectedIconPath": "static/tabBar/searchS.png",
+        "iconPath": "static/tabBar/search.png",
+        "text": "筛选"
+      },
+      {
+        "pagePath": "pages/ucenter/ucenter",
+        "selectedIconPath": "static/tabBar/ucenterS.png",
+        "iconPath": "static/tabBar/ucenter.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

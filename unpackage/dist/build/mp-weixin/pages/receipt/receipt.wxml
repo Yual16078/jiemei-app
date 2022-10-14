@@ -1,0 +1,1 @@
+<view><text data-event-opts="{{[['tap',[['',['$event']]]]]}}" bindtap="__e">niaho</text></view>

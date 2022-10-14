@@ -1,0 +1,94 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "快递通",
+				"enablePullDownRefresh": true
+			}
+		}
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"navigationBarTitleText":"搜索"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/ucenter",
+            "style" : {
+				"navigationStyle":"custom",
+				"navigationBarTitleText":"关于我们"
+			}
+        }
+        ,{
+            "path" : "pages/add/add",
+            "style" : {
+				"navigationBarTitleText":"资料填写"
+			}
+        }
+        ,{
+            "path" : "pages/index/qrcode",
+            "style" : {
+				"navigationBarTitleText":"社区成员登记"
+			}
+        }
+        ,{
+            "path" : "pages/member_detail/member_detail",
+            "style" : {
+				"navigationBarTitleText":"快递详细信息"
+			}
+        }
+        ,{
+            "path" : "pages/index/shequ_list/shequ_list",
+            "style" : {
+				"navigationBarTitleText":"管理的社区"
+			}
+        }
+        ,{
+            "path" : "pages/member_detail/info",
+            "style" : {
+				"navigationBarTitleText":"快件信息"
+			}
+        }
+        ,{
+            "path" : "pages/member_detail/list",
+            "style" : {
+				"navigationBarTitleText":"子成员"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/about_us",
+            "style" : {
+				"navigationBarTitleText":"关于我们"
+			}
+        }
+    ],
+	"tabBar":{
+		"color":"#8a8a8a",
+		"selectedColor":"#66ccff",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"selectedIconPath":"static/tabBar/indexS.png",
+				"iconPath":"static/tabBar/index.png",
+				"text":"首页"
+			},{
+				"pagePath":"pages/search/search",
+				"selectedIconPath":"static/tabBar/searchS.png",
+				"iconPath":"static/tabBar/search.png",
+				"text":"筛选"
+			},
+			{
+				"pagePath":"pages/ucenter/ucenter",
+				"selectedIconPath":"static/tabBar/ucenterS.png",
+				"iconPath":"static/tabBar/ucenter.png",
+				"text":"我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "出入管理",
+		"navigationBarBackgroundColor": "#66ccff"
+	}
+}

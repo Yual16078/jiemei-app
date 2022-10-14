@@ -1,0 +1,1 @@
+<view class="content"><view id="title"><view class="cu-bar  solid-bottom"><view class="action "><text class="cuIcon-activityfill text-red"></text><text class="title">公司简介</text></view></view></view><view class="margin-top-xs" id="connect"><rich-text nodes="{{nodes}}">欢迎有志于电商、物流领域的创业者入驻，本空间提供舒适快捷的办公环境，集仓储、物流、快递于一体，是您理想的创业之地！</rich-text></view></view>

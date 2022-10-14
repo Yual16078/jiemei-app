@@ -1,0 +1,9 @@
+
+.text{
+	padding: 10px;
+	height: 50px;
+	width: 100%;
+}
+text{
+}
+

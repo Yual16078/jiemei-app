@@ -1,0 +1,1 @@
+<view class="content"><view id="title"><view class="cu-bar  solid-bottom"><view class="action "><text class="cuIcon-activityfill text-red"></text><text class="title">{{title}}</text></view></view></view><view class="margin-top-xs" id="connect"><rich-text nodes="{{nodes}}"></rich-text></view></view>
